@@ -7,7 +7,8 @@ Install this app and never bother to copy paste the link every time
 1. Create a privatekey file and containing private key from newly created github app
 2. Create .env file from .env.example file
 3. Link the privatekey in .env file
-4. Deploy
+4. npm install
+5. npm start
 
 ## usage
 create a file in your repo under .github/jira-comment-app.yml with following config
