@@ -4,6 +4,12 @@ Tired of copying Atlassian Jira issue link to your github pull requests every ti
 Install this app and never bother to copy paste the link every time
 
 ## setup
+1. Create a privatekey file and containing private key from newly created github app
+2. Create .env file from .env.example file
+3. Link the privatekey in .env file
+4. Deploy
+
+## usage
 create a file in your repo under .github/jira-comment-app.yml with following config
 ```shell
 active: true
@@ -11,7 +17,6 @@ organization: <Your jira organization name goes here>
 # for example, for this account https://myorganization.atlassian.net/ the settings would be organization: myorganization
 ```
 
-## usage
 when creating branches in your Github repository use jira code for example
 ```shell
 bug_fix_for_pm-1334
